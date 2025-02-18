@@ -1,0 +1,25 @@
+.firstColCont {
+    width: fit-content;
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#submit {
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 5px 10px;
+    transition: all .2s ease-in-out;
+}
+
+#submit:hover {
+    background-color: white;
+    color: black;
+}
