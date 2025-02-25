@@ -1,13 +1,16 @@
 .firstColCont {
-    width: fit-content;
+    width: 240px;
     height: auto;
+    margin: auto;
     padding: 20px;
-    border: 1px solid black;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #submit {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     width: fit-content;
     cursor: pointer;
     border: 1px solid black;
@@ -15,6 +18,8 @@
     color: white;
     background-color: black;
     margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 1.25rem;
     margin-bottom: 10px;
     padding: 5px 10px;
     transition: all .2s ease-in-out;
@@ -31,5 +36,25 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .secondFormCont h2 {
+    text-align: center;
+}
+
+.firstColCont label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.firstColCont input {
+    border: 2px solid rgb(96, 35, 124);
+    border-radius: 4px;
+    width: 200px;
+    padding: 4px;
+}
+
+.firstColCont div {
+    margin-bottom: 10px;
+}
+
+.firstColCont h2 {
     text-align: center;
 }
