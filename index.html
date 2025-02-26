@@ -8,6 +8,7 @@
 </head>
 <body>
     <form action="" method="POST">
+        <div class="pageCont">
         <div class="firstColCont">
             <h2>Adatok:</h2>
             <div class="nameCont">
@@ -31,8 +32,6 @@
             </div>
 
         </div>
-
-        <button id="submit" type="submit">Elküld</button>
 
         <div class="secondFormCont">
             <h2>További adatok:</h2>
@@ -73,8 +72,25 @@
                     <input type="checkbox" id="prog" name="box" value="programming">
                     <label for="prog">Programozás</label>
                 </div>
-
         </div>
+        <div class="thirdFormCont">
+            <h2>Szakirány és vélemény</h2>
+            <label for="szakirány">Válassza ki a szakirányt!</label>
+            <select name="szakirány" id="szakirány">
+                <option value="elektrotechnika">Elektrotechnika</option>
+                <option value="informatikus">Informatikus</option>
+                <option value="rendszerfejlesztő">Rendszerfejlesztő</option>
+                <option value="szakács">Szakács</option>
+            </select>
+            <!--Textarea-->
+            <h3>Írja ide a véleményét!</h3>
+            <div class="opininonCont">
+                <label for="opinion">Vélemény:</label>
+                <textarea name="opinion" id="opinion" rows="10" cols="30"></textarea>
+            </div>
+        </div>
+    </div>
+    <button id="submit" type="submit">Elküld</button>
     </form>
 </body>
 </html>
